@@ -1,3 +1,5 @@
 How works
 ---------
+Complete config.php file
 php search url [profile id of analytics]
+Ex: php search pepijuegos
