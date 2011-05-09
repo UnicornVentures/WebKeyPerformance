@@ -1,0 +1,7 @@
+<?
+
+define("user_password","yourdbuser");
+define("db_password","yourdbpassword");
+define('ga_email','gmail mail');
+define('ga_password','gmail password');
+
