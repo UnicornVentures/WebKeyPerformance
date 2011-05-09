@@ -69,7 +69,7 @@ class webkeyperformance
 		}
 		else
 		{
-    	    $ga = new gapi(ga_email,ga_password);
+    	    $ga = new gapi(config::ga_email,config::ga_password);
     	    $start = date('Y-m-d', strtotime('-1 day'));
         	$end = date('Y-m-d', strtotime('-1 day'));
         	$ga->requestReportData($id,array('keyword'),array('visits'),'-visits',null,$start,$end);

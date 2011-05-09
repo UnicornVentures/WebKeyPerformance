@@ -1,11 +1,11 @@
 <?php
-require_once 'conf.class.php';
+require_once 'config.php';
 
 final class DataBase {
 
-	private static $_dns = Conf::DNS;
-	private static $_userName = Conf::USERNAME;
-	private static $_password = Conf::PASSWORD;
+	private static $_dns = config::DB_DNS;
+	private static $_userName = config::DB_USERNAME;
+	private static $_password = config::DB_PASSWORD;
 	private static $_instance;
 
 	private function __construct() { }

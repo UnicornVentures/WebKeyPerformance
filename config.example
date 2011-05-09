@@ -1,7 +1,12 @@
 <?
+final class config
+{
+	const DB_DRIVER = "mysql";
+	const DB_DNS = "mysql:dbname=db_name;host=localhost";
+	const DB_USERNAME ="db_username";
+	const DB_PASSWORD = "db_password";
 
-define("user_password","yourdbuser");
-define("db_password","yourdbpassword");
-define('ga_email','gmail mail');
-define('ga_password','gmail password');
+	const ga_email ="gmail_mail";
+	const ga_password ="gamail_password";
+}
 
